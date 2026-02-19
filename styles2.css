@@ -1,0 +1,27 @@
+body{
+    background:#ddd;
+    font-family: sans-serif;
+  }
+  
+  /* โครง grid */
+  .grid{
+    display:grid;
+    grid-template-columns: repeat(3, 220px);
+    gap:25px;
+    justify-content:center;
+    margin-top:40px;
+  }
+  
+  /* กล่องเหลือง */
+  .box{
+    background:#e3c233;
+    border:3px solid #333;
+    padding:20px;
+    box-shadow:4px 4px 0 #333;
+  }
+  
+  /* กล่องล่างให้อยู่กลาง */
+  .bottom{
+    grid-column:2;
+  }
+  
